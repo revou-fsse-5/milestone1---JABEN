@@ -11,6 +11,8 @@
   --max-width-1400: 1400px;
   --max-width-1200: 1200px;
   --max-width-900: 900px;
+  --foreground: var(--white);
+  --nav-background : rgb(28,29,35);
 }
 
 * {
@@ -119,7 +121,7 @@ body {
 
 nav {
   width: 100%;
-  background-color:rgb(28,29,35);
+  background-color:var(--nav-background);
   padding-bottom: 10px;
 }
 
@@ -136,7 +138,7 @@ ul {
 
 .link a {
   font-weight: 500;
-  color: white;
+  color: var(--extra-light);
 }
 
 .link a:hover {
@@ -160,11 +162,13 @@ ul {
   align-items: center;
   justify-content: flex-end;
   gap: 2rem;
+  padding-right: 50px;
+
 }
 
 .nav__icons span a {
   font-size: 1.25rem;
-  color: white;
+  color: var(--extra-light);
 }
 
 .nav__icons span a:hover {
@@ -569,6 +573,14 @@ ul {
   border-radius: 1rem;
 }
 
+
+.darkmode 
+{
+  --foreground: black;
+  --nav-background : #ffffffaf;
+  --extra-light: black;
+}
+
 .blog__grid {
   max-width: var(--max-width-1200);
   margin: auto;
@@ -609,7 +621,20 @@ ul {
   color: var(--text-light);
 }
 
-
+.dark-mode-toggle {
+  position:fixed;
+  z-index: 100;
+  right: 10em;
+  right: 1em;
+  color: var(--foreground);
+  border: 2px solid currentColor;
+  padding: 4px;
+  background: transparent;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+}
 
 @media (width > 540px) {
   .banner__container {
@@ -644,9 +669,8 @@ ul {
     grid-template-columns: repeat(2, 1fr);
     /* .last__grid  { grid-column: 2; justify-self: center; } */
   }
-
- 
 }
+
 
 @media (width > 768px) {
 

@@ -1,5 +1,6 @@
 let slider = document.querySelector('.slider .list');
 let items = document.querySelectorAll('.slider .list .item');
+let itemss = document.querySelectorAll('.slider .list .item .content');
 let next = document.getElementById('next');
 let prev = document.getElementById('prev');
 let dots = document.querySelectorAll('.slider .dots li');
@@ -15,18 +16,27 @@ prev.onclick = function(){
     reloadSlider();
 }
 let refreshInterval = setInterval(()=> {next.click()}, 3000);
-function reloadSlider(){
-    slider.style.left = -items[active].offsetLeft + 'px';
-    // 
-    let last_active_dot = document.querySelector('.slider .dots li.active ');   
-    last_active_dot.classList.remove('active');
-    dots[active].classList.add('active');
+function reloadSlider() {
+    slider.style.left = -items[active].offsetLeft + 'px'
+    items.forEach((item, index) => {
+      if (index === active) {
+        item.classList.add('active')
+      } else {
+        item.classList.remove('active')
+      }
+    })
+  
+    let last_active_dot = document.querySelector('.slider .dots li.active')
+    last_active_dot.classList.remove('active')
+    dots[active].classList.add('active')
+  
+    clearInterval(refreshInterval)
+    refreshInterval = setInterval(() => {
+      next.click()
+    }, 3000)
+  }
 
-    clearInterval(refreshInterval);
-    refreshInterval = setInterval(()=> {next.click()}, 3000);
 
-    
-}
 
 dots.forEach((li, key) => {
     li.addEventListener('click', ()=>{
@@ -37,4 +47,6 @@ dots.forEach((li, key) => {
 window.onresize = function(event) {
     reloadSlider();
 };
+
+reloadSlider();
 

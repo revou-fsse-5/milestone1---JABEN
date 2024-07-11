@@ -19,10 +19,10 @@
     <nav>
       <section class="nav-style">
         <ul class="nav__links">
-          <li class="link"><a href="#">Home</a></li>
-          <li class="link"><a href="#">Shop</a></li>
-          <li class="link"><a href="#">On Sales</a></li>
-          <li class="link"><a href="#">News</a></li>
+          <li class="link"><a href="#home">Home</a></li>
+          <li class="link"><a href="#sale">On Sales</a></li>
+          <li class="link"><a href="#shop_link">Shop</a></li>
+          <li class="link"><a href="#blog_news">News</a></li>
         </ul>
         <div class="nav__logo">
           <a href="#"><img class="img-header" src="assets/jaben.webp" alt="categories" /></a>
@@ -38,6 +38,11 @@
             <a href="#"><i class="ri-shopping-bag-line"></i></a>
           </span>
         </div>
+        <button id="dark-mode-toggle" class="dark-mode-toggle" title="button">
+          <svg width="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 496">
+            <path fill="currentColor" d="M8,256C8,393,119,504,256,504S504,393,504,256,393,8,256,8,8,119,8,256ZM256,440V72a184,184,0,0,1,0,368Z" transform="translate(-8 -8)"/>
+          </svg>
+        </button>
       </section>
     </nav>
     <header class="header_cont">
@@ -58,22 +63,46 @@
               <div class="item">
                 <img src="assets/2.jpg">
                 <div class="content">
-                    <p>design</p>
-                    <h2>Slider 02</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, neque?
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, ex.
-                    </p>
+                  <p>design</p>
+                  <h2>Slider 02</h2>
+                  <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, neque?
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, ex.
+                  </p>
                 </div>
               </div>
               <div class="item">
                   <img src="assets/3.jpg" alt="">
+                  <div class="content">
+                    <p>design</p>
+                    <h2>Slider 03</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, neque?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, ex.
+                    </p>
+                  </div>
               </div>
               <div class="item">
                   <img src="assets/4.jpg" alt="">
+                  <div class="content">
+                    <p>design</p>
+                    <h2>Slider 04</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, neque?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, ex.
+                    </p>
+                  </div>
               </div>
               <div class="item">
                   <img src="assets/5.jpg" alt="">
+                  <div class="content">
+                    <p>design</p>
+                    <h2>Slider 05</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, neque?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, ex.
+                    </p>
+                  </div>
               </div>
           </div>
           <div class="buttons">
@@ -87,11 +116,11 @@
               <li></li>
               <li></li>
           </ul>
-      </div>
+        </div>
       </section>
     </header>
     
-    <section class="section__container sale__container">
+    <section class="section__container sale__container" id="home">
       <h2 class="section__header">The Little Headphone Store</h2>
       <p class="section__subheader">
         Jaben look into one direction, to become the most complete audio market
@@ -121,11 +150,10 @@
           </p>
         </figure>
         <figure class="delivery__card last__grid">
-          <span><i class="ri-user-voice-fill"></i></span>
-          <h4>Strong Support</h4>
+          <span><i class="ri-secure-payment-line"></i></span>
+          <h4>Secure Payment</h4>
           <p>
-            Offer customer support services to assist customers with queries and
-            issues.
+            Your payment is safe and swift with reputable providers.
           </p>
         </figure>
       </section>
@@ -145,7 +173,7 @@
       </section>
     </section>
 
-    <section class="section__container sale__container">
+    <section class="section__container sale__container" id="sale">
       <h2 class="section__header">On Sale</h2>
       <br>
       <figure class="sale__grid">
@@ -179,7 +207,7 @@
       </figure>
     </section>
 
-    <section class="section__container product__container">
+    <section class="section__container product__container" id="shop_link">
       <h2 class="section__header">Trending Products</h2>
       <p class="section__subheader">
         Discover the Hottest Picks: Elevate Your Music Experience.
@@ -365,7 +393,7 @@
         <button class="btn">VIEW ALL PRODUCTS</button>
       </figure>
     </section>
-    <section class="section__container blog__container">
+    <section class="section__container blog__container" id="blog_news">
       <h2 class="section__header">Latest From Blog</h2>
       <p class="section__subheader">
         Elevate your Collection with our freshest Audio Launch, trends, and
@@ -401,16 +429,16 @@
       <div class="slider-logo">
         <div class="slide-track-logo">
           <div class="slide-logo">
-            <img class= "img-slider-logo" src="/assets/fiio1.webp" alt="">
+            <img class= "img-slider-logo" src="https://cdn.freebiesupply.com/logos/large/2x/philips-2-logo-png-transparent.png" alt="">
           </div>
           <div class="slide-logo">
-            <img class= "img-slider-logo" src="/assets/fiio1.webp" alt="">
+            <img class= "img-slider-logo" src="https://cdn.freebiesupply.com/logos/large/2x/audio-technica-01-logo-png-transparent.png" alt="">
           </div>
           <div class="slide-logo">
             <img class= "img-slider-logo" src="/assets/sony-music-2-logo-black-and-white.png" alt="">
           </div>
           <div class="slide-logo">
-            <img class= "img-slider-logo" src="/assets/sennheiser-3-logo-black-and-white.png" alt="">
+            <img class= "img-slider-logo" src="https://cdn.freebiesupply.com/logos/large/2x/sennheiser-2-logo-png-transparent.png" alt="">
           </div>
           <div class="slide-logo">
             <img class= "img-slider-logo" src="https://cdn.freebiesupply.com/logos/large/2x/mercedes-benz-6-logo-png-transparent.png" alt="">
@@ -419,7 +447,7 @@
             <img class= "img-slider-logo" src="https://cdn.freebiesupply.com/logos/large/2x/hogwarts-logo-png-transparent.png" alt="">
           </div>
           <div class="slide-logo">
-            <img class= "img-slider-logo" src="https://cdn.freebiesupply.com/logos/thumbs/2x/mcdonalds-black-logo.png" alt="">
+            <img class= "img-slider-logo" src="https://cdn.freebiesupply.com/logos/large/2x/sennheiser-3-logo-black-and-white.png" alt="">
           </div>
           <div class="slide-logo">
             <img class= "img-slider-logo" src="https://cdn.freebiesupply.com/images/large/2x/starbucks-logo-black-and-white.png" alt="">
@@ -429,15 +457,6 @@
           </div>
           <div class="slide-logo">
             <img class= "img-slider-logo" src="https://cdn.freebiesupply.com/logos/large/2x/nfl-logo-png-transparent.png" alt="">
-          </div>
-          <div class="slide-logo">
-            <img class= "img-slider-logo" src="/assets/fiio1.webp" alt="">
-          </div>
-          <div class="slide-logo">
-            <img class= "img-slider-logo" src="/assets/fiio1.webp" alt="">
-          </div>
-          <div class="slide-logo">
-            <img class= "img-slider-logo" src="/assets/fiio1.webp" alt="">
           </div>
           <div class="slide-logo">
             <img class= "img-slider-logo" src="https://cdn.freebiesupply.com/images/large/2x/starbucks-logo-black-and-white.png" alt="">
@@ -470,11 +489,10 @@
         <figure class="footer__col">
           <h4>Product</h4>
           <ul class="footer__links">
-            <li><a href="#">Menu</a></li>
-            <li><a href="#">Specials</a></li>
-            <li><a href="#">Meal Deals</a></li>
-            <li><a href="#">Catering Options</a></li>
-            <li><a href="#">Seasonal Offerings</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">On Sales</a></li>
+            <li><a href="#">News </a></li>
           </ul>
         </figure>
         <figure class="footer__col">
@@ -482,8 +500,6 @@
           <ul class="footer__links">
             <li><a href="#">About Us</a></li>
             <li><a href="#">Contact Us</a></li>
-            <li><a href="#">Nutrition Information</a></li>
-            <li><a href="#">Allergen Information</a></li>
           </ul>
         </figure>
         <figure class="footer__col">
@@ -502,4 +518,71 @@
     </footer>
   </body>
   <script src="app.js"></script>
+  
 </html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+  $(document).ready(function(){
+    // Add smooth scrolling to all links
+    $("a").on('click', function(event) {
+  
+      // Make sure this.hash has a value before overriding default behavior
+      if (this.hash !== "") {
+        // Prevent default anchor click behavior
+        event.preventDefault();
+  
+        // Store hash
+        var hash = this.hash;
+  
+        // Using jQuery's animate() method to add smooth page scroll
+        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 800, function(){
+  
+          // Add hash (#) to URL when done scrolling (default click behavior)
+          window.location.hash = hash;
+        });
+      } // End if
+    });
+      // check for saved 'darkMode' in localStorage
+    let darkMode = localStorage.getItem('darkMode'); 
+  
+    const darkModeToggle = document.querySelector('#dark-mode-toggle');
+  
+    const enableDarkMode = () => {
+      // 1. Add the class to the body
+      document.body.classList.add('darkmode');
+      // 2. Update darkMode in localStorage
+      localStorage.setItem('darkMode', 'enabled');
+    }
+  
+    const disableDarkMode = () => {
+      // 1. Remove the class from the body
+      document.body.classList.remove('darkmode');
+      // 2. Update darkMode in localStorage 
+      localStorage.setItem('darkMode', null);
+    }
+    
+    // If the user already visited and enabled darkMode
+    // start things off with it on
+    if (darkMode === 'enabled') {
+      enableDarkMode();
+    }
+  
+    // When someone clicks the button
+    darkModeToggle.addEventListener('click', () => {
+      // get their darkMode setting
+      darkMode = localStorage.getItem('darkMode'); 
+      
+      // if it not current enabled, enable it
+      if (darkMode !== 'enabled') {
+        enableDarkMode();
+      // if it has been enabled, turn it off  
+      } else {  
+        disableDarkMode(); 
+      }
+    });
+  
+  });
+  </script>
