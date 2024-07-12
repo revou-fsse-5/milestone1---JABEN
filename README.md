@@ -1,14 +1,12 @@
-# My Portofolio Project
+![Header](assets/first.png)
 
-portfolio is a personal website designed to showcase My skillset, past projects, and personality. It’s like answering the classic interview question, “Why should we hire you?” by providing illustrative examples of My work. As a front-end developer, My portfolio serves as a place to display code, projects, and UI/UX sensibilities. By hosting my code on a public repository, I am allowing others to see my code, and my work.
+<h1 align="left">Glad to see you here ! <img src="https://raw.githubusercontent.com/muhammad-avicena/profile/master/wave.gif" width="30px" height="30px" /> </h1>
+hi, I'm Samuel. I am here to explain my project e-commerce for audio shop, that i've been build recently. it was build based on real audio shop in singapore named jaben.
 
-
-This portofolio project is deployed via Vercel and use Custom Domain using NiagaHoster
 
 ## Screenshots
 
-
-<img height="400" src="assets/web-ss.png">
+<img height="400" src="assets/2.png">
 
 ### Built on 
 
@@ -18,25 +16,35 @@ This portofolio project is deployed via Vercel and use Custom Domain using Niaga
 
 - ⚛️ [Javascript](https://reactjs.org/)
 
+- 🚀 [External/Internal Source](#Domain)
+  - Icon
+  - Image
+
 
 ## Table of Contents
 
-- [Installation](#Installation)
-- [Deployment](#deployment)
-- [Domain Configuration](#Domain)
+- [Installation and Deploy](#Installation)
+- [Development](#Development)
+- [Depedency](#Domain)
+
+
 
 
 <a id="Installation"></a>
 
-## Installation
+## Installation ⚡
 
 Install my-project with this following step
 
 ```bash
-  Go to https://github.com/samuelindraw/module-2-samuelindraw
-  Git Clone https://github.com/samuelindraw/module-2-samuelindraw
+  Go to https://github.com/samuelindraw/milestone1---JABEN
+  Git Clone https://github.com/samuelindraw/milestone1---JABEN
   Open index.html or launch it with live server on visual studio code 
 ```
+
+If you want to modify it you can use fork my repository insted : 
+
+<img height="400" width='600' src="assets/fork.png">
 
 We are very happy if you are interested and also contributing to My portofolio project 🤗
 
@@ -52,13 +60,85 @@ Here are a few options:
 | Header | Description |
 | --- | --- |
 | `Home` | Home is an introduction page |
-| `About` | Helping you to tell who your really are, whats your hobby etc |
-| `Contact` | Where people can reach out to you! |
+| `On Sale` | Telling if any item on sale |
+| `Shop` | Where shop catalog begin |
+| `News` | News |
+| `Footer` | More description here. |
 
+
+
+# Development
+Explain development stage from Scratch.
+The difficulty of create a website is the design, because without the design we never know how to create it, after finding the right design, then i focused to create the HTML structure and CSS. All i can think is using grid view as it will help me to determine the right spot to place my image or layouting the E-commerce shop list, After that i use some transition and animation using Javascript and CSS animation to make the page more lively. Here is the list of what i was doing :
+
+1. Create HTML Structure and HTML Sematic 
+2. Create HTML Image and Media Elements
+3. Create CSS Styling to make it the page more convinient to see
+4. Create Typograhpy and Icon using remix icon
+5. Create Optimized Responsive Design 
+6. Add javascript Animation 
+
+## Create HTML Structure and HTML Sematic 
+
+<img height="400" src="assets/code2.png">
+
+## Create HTML Image and Media Elements
+
+<img height="400" src="assets/code3.png">
+
+## Create CSS Styling to make it the page more convinient to see
+
+<img height="400" src="assets/code4.png">
+
+## Create Typograhpy and Icon using remix icon
+
+<img height="400" src="assets/code5.png">
+
+## Create Optimized Responsive Design 
+
+<img height="400" src="assets/code6.png">
+
+## Add javascript Animation  
+
+<img height="400" src="assets/code7.png">
+
+
+# Screenshot
+<img height="400" src="assets/tamp1.png">
+<img height="400" src="assets/tamp2.png">
+<img height="400" src="assets/tamp3.png">
+<img height="400" src="assets/tamp4.png">
+<img height="400" src="assets/tamp5.png">
+
+## Responsive
+
+<img height="400" src="assets/response1.png">
+<img height="400" src="assets/response2.png">
+<img height="400" src="assets/response3.png">
+
+# Depedency 
+An external library is a collection of code (functions, classes, and other components) that extends the functionality of a programming language beyond what’s available in its core libraries. On my project i use : 
+
+1. Remix Icon
+>Remix Icon is a set of open-source neutral-style system symbols for designers and developers. Unlike a patchwork icon library, 2800+ icons are all elaborately crafted so that they are born with the genes of readability, consistency, and perfect pixels. Each icon was designed in "Outlined" and "Filled" styles based on a 24x24 grid. Of course, all the icons are free for both personal and commercial use.
+
+I use remix icon to provide an icon in my website
+<img height="400" src="assets/remix.png">
+<img height="400" src="assets/remix2.png">
+
+2. Font 
+I use font from google api to make text preetier and match to the design pattern
+<img height="400" src="assets/poppins.png">
+
+<br>
+
+<br>
+
+<img height="400" src="assets/font.png">
+
+3. Javascript 
 
 <a id="deployment"></a>
-
-
 
 # Deployment
 

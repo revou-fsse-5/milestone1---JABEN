@@ -57,7 +57,7 @@
 }
 
 .img-header{
-  width: 215px;
+  width: 170px;
 }
 
 
@@ -161,7 +161,7 @@ ul {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  gap: 2rem;
+  gap: 1rem;
   padding-right: 50px;
 
 }
@@ -637,6 +637,18 @@ ul {
 }
 
 @media (width > 540px) {
+
+  .nav__icons {
+    gap: 2rem;
+    padding-right: 50px;
+  
+  }
+
+  .img-header{
+    width: 215px;
+  }
+
+
   .banner__container {
     grid-template-columns: repeat(2, 1fr);
   }
