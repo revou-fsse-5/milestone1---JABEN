@@ -44,7 +44,7 @@ Install my-project with this following step
 
 If you want to modify it you can use fork my repository insted : 
 
-<img height="400" width='600' src="assets/fork.png">
+<img src="assets/fork.png">
 
 We are very happy if you are interested and also contributing to My portofolio project 🤗
 
@@ -123,20 +123,36 @@ An external library is a collection of code (functions, classes, and other compo
 >Remix Icon is a set of open-source neutral-style system symbols for designers and developers. Unlike a patchwork icon library, 2800+ icons are all elaborately crafted so that they are born with the genes of readability, consistency, and perfect pixels. Each icon was designed in "Outlined" and "Filled" styles based on a 24x24 grid. Of course, all the icons are free for both personal and commercial use.
 
 I use remix icon to provide an icon in my website
-<img height="400" src="assets/remix.png">
-<img height="400" src="assets/remix2.png">
+<img src="assets/remix.png">
+<img src="assets/remix2.png">
 
 2. Font 
 I use font from google api to make text preetier and match to the design pattern
-<img height="400" src="assets/poppins.png">
+<img src="assets/poppins.png">
 
 <br>
 
 <br>
 
-<img height="400" src="assets/font.png">
+<img src="assets/font.png">
 
 3. Javascript 
+I use javascript to make carousel, dark mode using local storage and smooth slider 
+<img src="assets/js1.png">
+
+<br>
+
+<br>
+
+<img src="assets/js2.png">
+
+
+# Specific Design 
+
+Specific Design that i was use, is changing hamburger button to magnifier and shopping card and also i use carousel using js since when i use css its not responsive
+
+<img src="assets/response4.png">
+
 
 <a id="deployment"></a>
 
