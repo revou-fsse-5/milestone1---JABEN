@@ -21,12 +21,14 @@
   box-sizing: border-box;
 }
 .header_cont{
-  height: 800px;
+  padding-top: 90px;
+  height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('/assets/background.avif') center/cover no-repeat;
 }
 
 .nav-style{
   max-width: var(--max-width-1200);
+  height: 80px;
   margin: auto;
   padding: 2rem 1rem;
   display: flex;
@@ -59,6 +61,26 @@
 .img-header{
   width: 170px;
 }
+
+/* ul {
+  list-style: none;
+  position: absolute;
+  width: 100%;
+  height: calc(100vh - 85px);
+  left: -100%;
+  top: 85px;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3rem;
+}
+
+nav #check:checked ~ ul {
+  left: 0;
+}
+
+ul li a {
+  font-size: 1.25rem;
+} */
 
 
 .delivery__container {
@@ -124,7 +146,7 @@ nav {
   position:fixed;
   width: 100%;
   background-color:var(--nav-background);
-  padding-bottom: 10px;
+  /* padding-bottom: 10px; */
 }
 
 ul {
