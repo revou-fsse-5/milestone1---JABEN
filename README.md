@@ -106,7 +106,7 @@ The difficulty of create a website is the design, because without the design we 
 
 ## Add javascript Animation  
 
-<img height="400" src="assets/code7.png">
+<img src="assets/code7.png">
 
 
 # Screenshot
