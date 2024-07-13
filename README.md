@@ -3,6 +3,12 @@
 <h1 align="left">Glad to see you here ! <img src="https://raw.githubusercontent.com/muhammad-avicena/profile/master/wave.gif" width="30px" height="30px" /> </h1>
 hi, I'm Samuel. I am here to explain my project e-commerce for audio shop, that i've been build recently. it was build based on real audio shop in singapore named jaben.
 
+# DEPLOYMENT LINK
+> [!IMPORTANT]
+> This is my deployment link.
+https://myportofolio.online/
+https://jabennetwork.vercel.app/
+
 
 ## Screenshots
 
@@ -347,13 +353,7 @@ was a list your custom domain, with some notice
 > [!TIP]
 > AND YOU ARE SET, JUST WAIT AND YOU CAN USE YOUR CUSTOM DOMAIN !!! 
 
-## deployment link
 
-# DEPLOYMENT LINK
-> [!IMPORTANT]
-> This is my deployment link.
-https://myportofolio.online/
-https://portofoliositeme.vercel.app/
 
 
 
