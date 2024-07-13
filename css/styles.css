@@ -62,27 +62,6 @@
   width: 170px;
 }
 
-/* ul {
-  list-style: none;
-  position: absolute;
-  width: 100%;
-  height: calc(100vh - 85px);
-  left: -100%;
-  top: 85px;
-  flex-direction: column;
-  justify-content: center;
-  gap: 3rem;
-}
-
-nav #check:checked ~ ul {
-  left: 0;
-}
-
-ul li a {
-  font-size: 1.25rem;
-} */
-
-
 .delivery__container {
   max-width: var(--max-width-1200);
   margin: auto;
@@ -252,15 +231,15 @@ ul {
 }
 
 .banner__card:nth-child(1) {
-  background-image: url("/assets/ath.jpg");
+  background-image: url("/assets/ath.webp");
 }
 
 .banner__card:nth-child(2) {
-  background-image: url("/assets/schit.jpg");
+  background-image: url("/assets/schit.webp");
 }
 
 .banner__card:nth-child(3) {
-  background-image: url("/assets/ZX2-1.jpg");
+  background-image: url("/assets/ZX2-1.webp");
 }
 
 .banner__card p {
@@ -813,5 +792,27 @@ nav .checkboxes i {
   nav .checkboxes {
     display: block;
     margin: 0 auto;
+  }
+} */
+
+/* @media (width < 750px) {
+  ul {
+    z-index: 10;
+    width: 100%;
+    height: calc(100vh - 85px);
+    left: -100%;
+    top: 85px;
+    background-color: var(--extra-light);
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+  }
+
+  nav #check:checked ~ ul {
+    left: 0;
+  }
+
+  ul li a {
+    font-size: 1.25rem;
   }
 } */
